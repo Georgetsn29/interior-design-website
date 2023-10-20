@@ -203,8 +203,7 @@
     padding-left: 10px;
 }
 
-
-.about-us {
+.home-about-us {
     margin: auto;
     width: 1200px;
     height: 660px;
@@ -214,16 +213,16 @@
     justify-content: space-between;
 }
 
-.about-us .about-us-img {
+.home-about-us .about-us-img {
     height: 660px;
     border-radius: 0 300px 0 100px ;
 }
 
-.about-us .content {
+.home-about-us .content {
     padding-top: 40px;
 }
 
-.about-us .content .content-big {
+.home-about-us .content .content-big {
     font-size: 50px;
     letter-spacing: 2%;
     line-height: 125%;
@@ -231,7 +230,7 @@
     padding-bottom: 33px;
 }
 
-.about-us .content .content-lil {
+.home-about-us .content .content-lil {
     font-size: 22px;
     font-family: 'Jost';
     line-height: 150%;
@@ -240,7 +239,7 @@
     padding-bottom: 80px;
 }
 
-.about-us .content .number {
+.home-about-us .content .number {
     font-size: 22px;
     font-family: arial;
     letter-spacing: 1%;
@@ -255,13 +254,13 @@
     padding-bottom: 80px;
 }
 
-.about-us .content .number img {
+.home-about-us .content .number img {
     position: absolute;
     left: 0;
     width: 80px;
 }
 
-.about-us .content .btn {
+.home-about-us .content .btn {
     border: none;
     color: #ffffff;
     background-color: #292f36;
@@ -280,17 +279,18 @@
     width: 205px;
 }
 
-.about-us .content .btn:hover {
+.home-about-us .content .btn:hover {
     background-color: #4d5053;
     transition: 0.3s linear;
 
 }
 
-.about-us .content .btn img {
+.home-about-us .content .btn img {
     width: 15.14px;
     height: 13.18;
     margin-left: 10px;
 }
+
 
 .testimonial {
     background-color: #f4f0ec;
@@ -884,6 +884,7 @@ footer .footer-copyright p {
     width: 100%;
     height: 3518px;
     justify-content: center;
+    margin-bottom: 135px;
 }
 
 .about-us .quotes {
@@ -946,4 +947,208 @@ footer .footer-copyright p {
     line-height: 150%;
     color: #4d5053;
     font-family: 'jost';
+}
+
+.about-us .about-ourjob {
+    position: absolute;
+    top: 628px;
+    height: 904px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-us .about-ourjob .ourjob {
+    width: 1200px;
+}
+
+.about-us .about-ourjob .ourjob .ourjob-content {
+    width: 500px;
+    margin-block: 21.5px;
+}
+
+.about-us .about-ourjob .ourjob .ourjob-content .ourjob-content-text .ourjob-content-text-did {
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 2%;
+    color: #292f36;
+}
+
+.about-us .about-ourjob .ourjob .ourjob-content .ourjob-content-text .ourjob-content-text-lil {
+    font-size: 22px;
+    font-family: 'jost';
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4d5053;
+    margin-top: 23px;
+}
+
+.ourjob-content a {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 125%;
+    letter-spacing: 2%;
+    font-family: 'jost';
+    border-radius: 18px;
+    padding-block: 26px;
+    padding-inline: 41px;
+    background-color: #292f36;
+    transition: 0.3s;
+    position: absolute;
+    margin-top: 41px;
+    border: none;
+}
+
+.ourjob-content a:hover {
+    background-color: #4d5053;
+    transition: 0.3s linear;
+
+}
+
+.ourjob-content a img {
+    width: 15.14px;
+    height: 13.18;
+    margin-left: 10px;
+}
+
+.about-us .about-ourjob .ourjob .ourjob-img {
+    width: 659px;
+    height: 377px;
+    border-radius: 70px;
+    margin-top: -260px;
+    margin-left: 540px;
+}
+
+
+.about-us .about-ourjob .ourjob .result-img {
+    margin-left: 0px;
+}
+
+.result-content {
+    margin-left: 700px;
+}
+
+.aboutus-team {
+    width: 100%;
+    height: 968px;
+    background-color: #F4F0EC;
+    margin-top: 1698px;
+}
+
+.aboutus-team-content {
+    width: 1200.19px;
+    margin: 184.5px auto;
+    text-align: center;
+}
+
+.aboutus-team-content .aboutus-team-text {
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 2%;
+    color: #292f36;
+    padding-bottom: 40px;
+}
+
+.aboutus-team-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutus-team-container img {
+    border-radius: 30px;
+}
+
+.aboutus-mailbox {
+    position: absolute;
+    top: 2883px;
+    text-align: center;
+    width: 796px;
+}
+
+.aboutus-mailbox .aboutus-mailbox-text {
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 2%;
+    color: #292f36;
+    padding-bottom: 77px;
+}
+
+.mailbox-input {
+    width: 796px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mailbox-input input {
+    border: none;
+    border-bottom: 3px solid #000000;
+    width: 378px;
+    height: 45px;
+    color: #4d5053;
+    padding-inline: 10px;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4d5053;
+    font-family: 'jost';
+}
+
+.mailbox-input input::placeholder {
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4d5053;
+    font-family: 'jost';
+}
+
+textarea {
+    border: none;
+    border-bottom: 3px solid #000000;
+    resize: none;
+    width: 100%;
+    margin-top: 57px;
+    color: #4d5053;
+    padding-inline: 10px;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4d5053;
+    font-family: 'jost';
+}
+
+textarea::placeholder {
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4d5053;
+    font-family: 'jost';
+}
+
+.mailbox-btn {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 125%;
+    letter-spacing: 2%;
+    font-family: 'jost';
+    border-radius: 18px;
+    padding-block: 26px;
+    padding-inline: 41px;
+    background-color: #292f36;
+    transition: 0.3s;
+    margin-top: 77px;
+    border: none;
+}
+
+.mailbox-btn:hover {
+    background-color: #4d5053;
+    transition: 0.3s linear;
+
+}
+
+.mailbox-btn img {
+    width: 15.14px;
+    height: 13.18;
+    margin-left: 10px;
 }
