@@ -833,3 +833,117 @@ footer .footer-copyright p {
     font-family: 'jost';
     color: #4d5053;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*! about.html !*/
+
+.about-banner {
+    width: 100%;
+}
+
+.about-banner img {
+    width: 100%;
+}
+
+.about-banner .about-banner-aboutus {
+    background-color: #ffffff;
+    width: 503px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: -183px;
+    padding-block: 41px;
+    border-radius: 37px 37px 0 0;
+}
+
+.about-banner .about-banner-aboutus .about-banner-did {
+    font-size: 50px;
+    line-height: 125%;
+    color: #292f36;
+}
+
+.about-banner .about-banner-aboutus .about-banner-lil {
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4d5053;
+    font-family: 'jost';
+}
+
+.about-us {
+    width: 100%;
+    height: 3518px;
+    justify-content: center;
+}
+
+.about-us .quotes {
+    width: 875.5px;
+    height: 428px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    border: 25px solid #F4F0EC;
+    border-radius: 70px;
+}
+
+.about-us .quotes::after {
+    content: '';
+    position: absolute;
+    width: 420px;
+    top: -25px;
+    left: 198.5px;
+    border: 13px solid #ffffff;
+}
+
+.about-us .quotes::before {
+    content: '';
+    position: absolute;
+    width: 420px;
+    top: 378.5px;
+    left: 198.5px;
+    border: 13px solid #ffffff;
+}
+
+.about-us .quotes .quotes-content {
+    width: 751px;
+    text-align: center;
+    position: absolute;
+    left: 40px;
+}
+
+.about-us .quotes .quotes-content .quotation {
+    font-size: 85px;
+    line-height: 125%;
+    letter-spacing: 2%;
+    color: #292f36;
+}
+
+.about-us .quotes .quotes-content .quotes-comment {
+    width: 751px;
+}
+
+.about-us .quotes .quotes-content .quotes-comment .quotes-comment-big {
+    font-size: 35px;
+    line-height: 125%;
+    letter-spacing: 2%;
+    color: #292f36;
+    padding-bottom: 34px;
+}
+
+.about-us .quotes .quotes-content .quotes-comment .quotes-comment-lil {
+    font-size: 25px;
+    letter-spacing: 1%;
+    line-height: 150%;
+    color: #4d5053;
+    font-family: 'jost';
+}
