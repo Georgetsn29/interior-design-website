@@ -1193,6 +1193,10 @@ textarea::placeholder {
     margin-bottom: 17px;
 }
 
+.team-container-ppl img:hover {
+    transform: scale(.9);
+}
+
 .team-container-details {
     width: 227.25px;
     text-align: center;
@@ -1226,4 +1230,85 @@ textarea::placeholder {
     font-size: 18px;
     color: #292f36;
     line-height: 120%;
+}
+
+
+
+
+
+
+
+
+/*! team-single-html !*/
+
+.team-member-detail {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.team-member-detail .tmd-img {
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+.tmd-sub-content {
+    width: 552px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.tmd-sub-content-did {
+    font-size: 50px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #292f36;
+}
+
+.tmd-sub-content-pat {
+    font-size: 22px;
+    font-family: 'jost';
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4d5053;
+}
+
+.tmd-sub-content-lil {
+    font-size: 22px;
+    font-family: 'jost';
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4d5053;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tmd-social p {
+    align-items: center;    
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'jost';
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4d5053;
+}
+
+.tmd-social p img {
+    margin-right: 15px;
+}
+
+.tmd-contact ul {
+    width: 146.46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tmd-contact ul a {
+    font-size: 18px;
+    line-height: 120%;
+    color: #292f36;
 }
